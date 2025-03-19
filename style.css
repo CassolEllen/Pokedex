@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #9fd3df, #9695c1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1 {
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.pokeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  gap: 15px; /* Espaço entre os cards */
+}
+
+.pokemon {
+  background-color: #99eef6;
+  border-radius: 15px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  padding: 20px;
+  text-align: center;
+  width: 220px; /* Define um tamanho fixo para os cards */
+}
+
+.imgContainer {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20%;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.imgContainer img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.number {
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 2px 5px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.name {
+  margin: 10px 0 5px;
+  letter-spacing: 1px;
+}
+
+.description {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  color: #333;
+}
